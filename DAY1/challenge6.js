@@ -1,0 +1,13 @@
+var prompt = require('prompt-sync')();
+let score1 = Number(prompt("score partie1: "));
+let score2 = Number(prompt("score partie2: "));
+let score3 = Number(prompt("score partie3: "));
+let score4 = Number(prompt("score partie4: "));
+let total = score1 + score2 + score3 + score4;
+let moyenne = total/4;
+console.log("partie1: " + score1);
+console.log("partie2: " + score2);
+console.log("partie3: " + score3);
+console.log("partie4: " + score4);
+console.log("score total: " + total);
+console.log("moyenne: " + moyenne);
