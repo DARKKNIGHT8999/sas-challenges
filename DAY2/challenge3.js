@@ -1,10 +1,12 @@
 const prompt = require('prompt-sync')();
+let choix=0;
+while (choix!=4){
 console.log("menu");
 console.log("1.afficher le profil");
 console.log("2.afficher les paramètres");
 console.log("3.afficher les notifications");
 console.log("4.se déconnecter");
-let choix = Number(prompt("choix: "));
+ choix = Number(prompt("choix: "));
 switch(choix){
 case 1:
     console.log("afficher le profil");
@@ -21,4 +23,4 @@ case 4:
 default:
     console.log("choix invalide.");
     break;          
-}
+}}
