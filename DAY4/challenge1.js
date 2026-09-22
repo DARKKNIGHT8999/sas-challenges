@@ -1,11 +1,9 @@
-function compterCaracteres(chaine){
-let count=0    
-let i=0
-    while(chaine[i]!== undefined){
-        count++
+function compterCaracteres(chaine){   
+let i=0;
+    while(chaine[i]){
         i++;
     }
-    return count;
+    return i;
 }
 let resultat=compterCaracteres("code");
 console.log(resultat);
