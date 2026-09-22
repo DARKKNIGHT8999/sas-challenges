@@ -10,4 +10,4 @@ function compterlettre(chaine, lettre){
     return count;
 }
 let resultat=compterlettre("javascript", "a");
-console.log(resultat);
+
