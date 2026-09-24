@@ -1,3 +1,8 @@
+
+
+
+
+
 const prompt = require('prompt-sync')();
 let tab = prompt("entrer les nombres: ").split(",");
 let somme = 0;
